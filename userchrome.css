@@ -57,11 +57,6 @@ div.CodeMirror.CodeMirror-wrap {
 	color: #B18EB1 !important;
 }
 
-/* colorize katex variables */
-.cm-variable-2 {
-	font-weight: bold !important;
-	color: #5fa2d0 !important;
-}
 
 /* colorize katex numbers */
 .cm-number {
