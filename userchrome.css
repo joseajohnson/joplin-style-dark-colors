@@ -1,0 +1,139 @@
+/* For styling the entire Joplin app (except the rendered Markdown, which is defined in `userstyle.css`) */
+
+/* designed for use with Dark theme */
+
+
+/* UNCOMMENT THIS RULE TO: */
+/* hide the 'click to add tag' button */
+/* div.resizableLayoutItem.rli-editorColumn > div.resizableLayoutItem.rli-editor > div > div > div:nth-child(4){ */
+/* 	display: none !important; */
+/* } */
+
+
+
+/* begin fix for the cutoff of last line in editor */
+
+div.resizableLayoutItem.rli-editor > div:first-child > div:first-child > div:nth-child(2) > div:first-child > div:nth-child(2) {
+	margin-bottom: 10px;
+}
+
+div.CodeMirror.CodeMirror-wrap {
+	padding-bottom: 10px;
+}
+
+/* end fix for the cutoff of last line in editor */
+
+
+
+/* colorize italics */
+.cm-em {
+	color: #B18EB1 !important;
+}
+
+/* colorize bold */
+.cm-strong {
+	color: #5fa2d0 !important;
+}
+
+/* colorize and italicize blockquote */
+.cm-quote {
+	color: #548281;
+	font-style: italic !important;
+}
+
+/* widen scrollbars */
+::-webkit-scrollbar {
+	width: 18px;
+	height: 7px;
+}
+
+
+
+/*  Define the background color for empty list areas  */
+.note-list
+{ 
+  background-color: #000000 !important;
+}
+
+/*  Alternating Note List Colors */
+
+/*  Define the list background color for all the ODD background rows  */
+.note-list > .list-item-container:nth-child(odd) a{ 
+  background-color: #060606;
+	background-clip: content-box;
+}
+
+/*  Define the list background color for all the EVEN background rows  */
+.note-list > .list-item-container:nth-child(even) a{
+	background-color: #191919;
+	background-clip: content-box;
+}
+
+
+
+/*  Alternating Notebook Colors */
+
+/*  Define the notebook background color for all the ODD background rows  */
+.list-item-container:nth-child(odd) a{ 
+  background-color: #1D2024;
+}
+
+/*  Define the notebook background color for all the EVEN background rows  */
+.list-item-container:nth-child(even) a{
+	background-color: #141414;
+}
+
+/* 0 - base black / dark grey */
+.list-item-depth-0:nth-child(odd) a{ 
+  background-color: #000000;
+}
+
+.list-item-depth-0:nth-child(even) a{
+	background-color: #121212;
+}
+
+/* 1 - dark purple */
+.list-item-depth-1:nth-child(odd) a{ 
+  background-color: #220828;
+}
+
+.list-item-depth-1:nth-child(even) a{
+	background-color: #270c2d;
+}
+
+/* 2 - blue */
+.list-item-depth-2:nth-child(odd) a{ 
+  background-color: #081a28;
+}
+
+.list-item-depth-2:nth-child(even) a{
+	background-color: #0c1e2d;
+}
+
+/* 3 - green */
+.list-item-depth-3:nth-child(odd) a{
+  background-color: #092a0c;
+}
+
+.list-item-depth-3:nth-child(even) a{
+	background-color: #0c2d0f;
+}
+
+
+/* 4 - purple */
+.list-item-depth-4:nth-child(odd) a{ 
+  background-color: #211733;
+}
+
+.list-item-depth-4:nth-child(even) a{
+	background-color: #241A36;
+}
+
+/* 5 - brown */
+.list-item-depth-5:nth-child(odd) a{ 
+  background-color: #1e1515;
+}
+
+.list-item-depth-5:nth-child(even) a{
+	background-color: #211818;
+}
