@@ -5,6 +5,12 @@ Refer to [Colored Rendered Markdown Stylesheet](#colored-rendered-markdown-style
 
 ![screenshot](img/joplin-style-dark-colors_00.png)
 
+Before, with final line partially hidden during editing:
+![screenshot](img/joplin-style-dark-colors_05.png)
+
+After, with `Click to add tags...` optionally removed:
+![screenshot](img/joplin-style-dark-colors_06.png)
+
 ## Joplin
 Download Joplin for your OS: 
 
