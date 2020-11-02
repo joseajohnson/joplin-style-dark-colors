@@ -1,11 +1,26 @@
 # joplin-style-dark-colors
 Alternating rows on lists with muted colors, larger, bolder editing styles.
 
+Refer to [section](#Colored Rendered Markdown Stylesheet) and [section](#Indented custom global stylesheet) for details regarding each file.
+
 ![screenshot](img/joplin-style-dark-colors_00.png)
 
-## Installation
+## Joplin
+download Joplin for you OS: 
+https://joplinapp.org/
+Custom CSS conversation: 
+https://discourse.joplinapp.org/t/share-your-css/1730
 
-Add both css files to your `JoplinProfile` directory, and restart Joplin.
+## Installation
+from 
+https://joplinapp.org/#custom-css
+
+Rendered markdown can be customized by placing a userstyle file in the profile directory `~/.config/joplin-desktop/userstyle.css` (This path might be different on your device - check at the top of the Config screen for the exact path). This file supports standard CSS syntax. Joplin must be restarted for the new css to be applied, please ensure that Joplin is not closing to the tray, but is actually exiting. Note that this file is used for both displaying the notes and printing the notes. Be aware how the CSS may look printed (for example, printing white text over a black background is usually not wanted).
+
+The whole UI can be customized by placing a custom editor style file in the profile directory `~/.config/joplin-desktop/userchrome.css`.
+
+Important: `userstyle.css` and userchrome.css are provided for your convenience, but they are advanced settings, and styles you define may break from one version to the next. If you want to use them, please know that it might require regular development work from you to keep them working. The Joplin team cannot make a commitment to keep the application HTML structure stable.
+
 
 ## Colored Rendered Markdown Stylesheet
 `userstyle.css`
@@ -16,7 +31,7 @@ Increases font size and weight of all text for readability, and colorizes bold a
 
 Italicizes blockquotes, and adds color to inline code.
 
-![userstyle-color-pallette](img/joplin-style-dark-colors_01-userstyle)
+![userstyle-color-pallette](img/joplin-style-dark-colors_01-userstyle.png)
 
 ## Indented custom global stylesheet
 `userchrome.css`
@@ -35,9 +50,10 @@ Wider scrollbars for lists and editor.
 
 Colorized bold and italic styles, heavier bold weight, italicized blockqoute (text preceded by `>` on a new line).
 
-![userchrome-color-pallette-styles](img/joplin-style-dark-colors_02-userchrome)
-![userchrome-color-pallette-notebooks](img/joplin-style-dark-colors_03-userchrome)
-![userchrome-color-pallette-notebooks-deep](img/joplin-style-dark-colors_04-userchrome)
+![userchrome-color-pallette-styles](img/joplin-style-dark-colors_02-userchrome.png)
+![userchrome-color-pallette-notebooks](img/joplin-style-dark-colors_03-userchrome.png)
+![userchrome-color-pallette-notebooks-deep](img/joplin-style-dark-colors_04-userchrome.png)
 
-swatches by 
+swatches powered by 
 https://coolors.co
+
