@@ -41,6 +41,37 @@ div.CodeMirror.CodeMirror-wrap {
 	font-style: italic !important;
 }
 
+
+
+
+
+/* colorize katex tags */
+.cm-tag {
+	color: #ff8c2f !important;
+}
+
+
+/* colorize katex brackets */
+.cm-bracket {
+	font-weight: bold !important;
+	color: #B18EB1 !important;
+}
+
+/* colorize katex variables */
+.cm-variable-2 {
+	font-weight: bold !important;
+	color: #5fa2d0 !important;
+}
+
+/* colorize katex numbers */
+.cm-number {
+	font-weight: bold !important;
+	color: #548281 !important;
+}
+
+
+
+
 /* widen scrollbars */
 ::-webkit-scrollbar {
 	width: 18px;
@@ -73,15 +104,16 @@ div.CodeMirror.CodeMirror-wrap {
 
 /*  Alternating Notebook Colors */
 
-/*  Define the notebook background color for all the ODD background rows  */
+/*  Define the default/passthrough notebook background color for all the ODD background rows  */
 .list-item-container:nth-child(odd) a{ 
   background-color: #1D2024;
 }
 
-/*  Define the notebook background color for all the EVEN background rows  */
+/*  Define the default/passthrough notebook background color for all the EVEN background rows  */
 .list-item-container:nth-child(even) a{
 	background-color: #141414;
 }
+
 
 /* 0 - base black / dark grey */
 .list-item-depth-0:nth-child(odd) a{ 

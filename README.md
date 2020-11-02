@@ -34,6 +34,8 @@ Increases font size and weight of all text for readability, and colorizes bold a
 
 Italicizes blockquotes, and adds color to inline code.
 
+Colorized KaTeX output.
+
 ![userstyle-color-pallette](img/joplin-style-dark-colors_01-userstyle.png)
 
 ## Indented custom global stylesheet
@@ -52,6 +54,8 @@ Direct child specificity used to avoid cascading to nested divs, like styling ba
 Wider scrollbars for lists and editor.
 
 Colorized bold and italic styles, heavier bold weight, italicized blockqoute (text preceded by `>` on a new line).
+
+Colorized KaTeX numbers, brackets, vars, and tags.
 
 ![userchrome-color-pallette-styles](img/joplin-style-dark-colors_02-userchrome.png)
 ![userchrome-color-pallette-notebooks](img/joplin-style-dark-colors_03-userchrome.png)

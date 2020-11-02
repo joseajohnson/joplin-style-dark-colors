@@ -38,3 +38,7 @@ blockquote {
 {
 	color: #B18EB1 !important;
 }
+
+.katex * {
+    color: cornflowerblue;
+}
