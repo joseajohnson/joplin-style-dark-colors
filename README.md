@@ -1,8 +1,11 @@
 # joplin-style-dark-colors
 Alternating rows on lists with muted colors, larger, bolder editing styles.
 
-Add both css files to your `JoplinProfile` directory, and restart Joplin.
+![screenshot](img/joplin-style-dark-colors_00.png)
 
+## Installation
+
+Add both css files to your `JoplinProfile` directory, and restart Joplin.
 
 ## Colored Rendered Markdown Stylesheet
 `userstyle.css`
@@ -13,6 +16,7 @@ Increases font size and weight of all text for readability, and colorizes bold a
 
 Italicizes blockquotes, and adds color to inline code.
 
+![userstyle-color-pallette](img/joplin-style-dark-colors_01-userstyle)
 
 ## Indented custom global stylesheet
 `userchrome.css`
@@ -29,4 +33,11 @@ Direct child specificity used to avoid cascading to nested divs, like styling ba
 
 Wider scrollbars for lists and editor.
 
-Colorized bold and italic styles, italicized blockqoute (text preceded by `>` on a new line).
+Colorized bold and italic styles, heavier bold weight, italicized blockqoute (text preceded by `>` on a new line).
+
+![userchrome-color-pallette-styles](img/joplin-style-dark-colors_02-userchrome)
+![userchrome-color-pallette-notebooks](img/joplin-style-dark-colors_03-userchrome)
+![userchrome-color-pallette-notebooks-deep](img/joplin-style-dark-colors_04-userchrome)
+
+swatches by 
+https://coolors.co
