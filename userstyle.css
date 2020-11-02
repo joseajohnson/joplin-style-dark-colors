@@ -1,0 +1,40 @@
+/* For styling the rendered Markdown */
+
+/* increase text weight and size for readability on hi res monitors */
+body {
+font-weight : 300;
+font-size : 18pt;
+line-height : 1.42em;
+}
+
+/* add horizontal rule to headers */
+h1, h2, h3, h4, h5
+{
+	border-bottom: #ff8c2f 1px solid !important;
+}
+
+/* colorize horizontal rule */
+hr 
+{
+    border-bottom: 2px solid #548281 !important;
+}
+
+/* bold */
+strong {
+  color: #5FA2D0;
+	font-weight : 600;
+}
+
+/* italic */
+em {
+    color: #616dad;
+}
+
+blockquote {
+	font-style: italic !important;
+}
+
+.inline-code
+{
+	color: #B18EB1 !important;
+}
