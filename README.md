@@ -1,14 +1,17 @@
 # joplin-style-dark-colors
 Alternating rows on lists with muted colors, larger, bolder editing styles.
 
-Refer to [section](#Colored Rendered Markdown Stylesheet) and [section](#Indented custom global stylesheet) for details regarding each file.
+Refer to [Colored Rendered Markdown Stylesheet](#colored-rendered-markdown-stylesheet) and [Indented custom global stylesheet](#indented-custom-global-stylesheet) for details regarding each file.
 
 ![screenshot](img/joplin-style-dark-colors_00.png)
 
 ## Joplin
-download Joplin for you OS: 
+Download Joplin for your OS: 
+
 https://joplinapp.org/
+
 Custom CSS conversation: 
+
 https://discourse.joplinapp.org/t/share-your-css/1730
 
 ## Installation
