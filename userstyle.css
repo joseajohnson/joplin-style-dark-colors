@@ -8,7 +8,7 @@ body {
 }
 
 /* unordered (bulleted) list spacing */
-ul {
+ul, ol {
 	line-height : 1.17em;
 	margin-top : 3px;
 }
@@ -27,7 +27,7 @@ ul {
  /* default bullets • = "\2022", ◦ = \25E6" and ▪ = "\25AA"  */
 
 /* • */
-li::before {
+ul > li::before {
 	content: "\2022";
 	color: #7728ab;
 	display: inline-block;
@@ -42,19 +42,19 @@ li::before {
 }
 
 /* ◦ */
-ul > li li::before {
+ul > li > ul > li::before {
 	content: "\25E6";
 	color: #00fffd;
 }
 
 /* ▪ */
-ul > li > ul > li li::before {
+ul > li > ul > li > ul > li::before {
 	content: "\25AA";
 	color: #2a7c38;
 }
 
 /* ► */
-ul > li > ul > li > ul > li li::before {
+ul > li > ul > li > ul > li > ul > li::before {
 	content: "\25BA";
 	color: #8b84ff;
 	top: -2px;
@@ -63,7 +63,7 @@ ul > li > ul > li > ul > li li::before {
 }
 
 /* ♦ */
-ul > li > ul > li > ul > li > ul > li li::before {
+ul > li > ul > li > ul > li > ul > li > ul > li::before {
 	content: "\2666";
 	color: #7c451f;
 	top: 1px;
@@ -72,13 +72,13 @@ ul > li > ul > li > ul > li > ul > li li::before {
 }
 
 /* ◌ */
-ul > li > ul > li > ul > li > ul > li > ul > li li::before {
+ul > li > ul > li > ul > li > ul > li > ul > li > ul > li::before {
 	content: "\25CC";
 	color: #ed00ff;
 }
 
 /* ֍ */
-ul > li > ul > li > ul > li > ul > li > ul > li > ul > li li::before {
+ul > li > ul > li > ul > li > ul > li > ul > li > ul > li > ul > li::before {
 	content: "\058D";
 	color: #fc7007;
 	top: -3px;

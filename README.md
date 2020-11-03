@@ -32,7 +32,7 @@ Important: `userstyle.css` and userchrome.css are provided for your convenience,
 
 
 ## Colored Rendered Markdown Stylesheet
-`userstyle.css`
+***`userstyle.css`***
 
 Adds horizontal rules to all headers, up to h5.
 
@@ -47,7 +47,7 @@ Colorized KaTeX output, unordered lists.
 ![userstyle-color-pallette](img/joplin-style-dark-colors_08-userstyle.png)
 
 ## Indented custom global stylesheet
-`userchrome.css`
+***`userchrome.css`***
 
 Fixed last editor line display cutoff by adding margin and padding to containers.
 
@@ -55,13 +55,13 @@ Alternating background colors for list items.
 
 To preserve default highlighting of active list item, only affect the anchor inside the list item, leaving the left as an indented indicator; best compromise to full alternating row colors, as defined global styles override native dynamic css used to enable highlighting.
 
-Also (optionally) removes `click to add tags` element, as it blocks the last line of editing and review windows, requiring either scrolling or extra whitespace at the end of long notes for last line visiblity.
+Also (optionally) removes ***`Click to add tags`*** element, as it blocks the last line of editing and review windows, requiring either scrolling or extra whitespace at the end of long notes for last line visiblity.
 
 Direct child specificity used to avoid cascading to nested divs, like styling bar.
 
 Wider scrollbars for lists and editor.
 
-Colorized header (`#`), bold, and italic styles, heavier bold weight, italicized blockqoute (text preceded by `>` on a new line).
+Colorized header (***`#`***), bold, and italic styles, heavier bold weight, italicized blockqoute (text preceded by ***`>`*** on a new line).
 
 Colorized KaTeX numbers, brackets, vars, and tags.
 
