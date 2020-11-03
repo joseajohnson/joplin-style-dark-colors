@@ -42,6 +42,8 @@ Italicizes blockquotes, and adds color to inline code.
 
 Colorized KaTeX output, unordered lists.
 
+Decreased ordered and unordered list indentation.
+
 ![userstyle-color-pallette](img/joplin-style-dark-colors_01-userstyle.png)
 ![userstyle-color-pallette](img/joplin-style-dark-colors_07-userstyle.png)
 ![userstyle-color-pallette](img/joplin-style-dark-colors_08-userstyle.png)
@@ -64,6 +66,8 @@ Wider scrollbars for lists and editor.
 Colorized header (***`#`***), bold, and italic styles, heavier bold weight, italicized blockqoute (text preceded by ***`>`*** on a new line).
 
 Colorized KaTeX numbers, brackets, vars, and tags.
+
+Decreased tab spacing width.
 
 ![userchrome-color-pallette-styles](img/joplin-style-dark-colors_02-userchrome.png)
 ![userchrome-color-pallette-notebooks](img/joplin-style-dark-colors_03-userchrome.png)
