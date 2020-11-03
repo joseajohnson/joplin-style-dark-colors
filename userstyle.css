@@ -18,7 +18,10 @@ li {
 	margin-bottom : 3.6px;
 }
 
-
+/* list - nested paragraph fix; precedes markdown links within lists (edge case) */
+li p {
+    margin-top: -28px;
+}
 
 /* begin colored and additional bullets */
 ul {
