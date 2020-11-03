@@ -91,6 +91,53 @@ ul > li > ul > li > ul > li > ul > li > ul > li > ul > li > ul > li::before {
 
 
 
+/* begin colored ordered list numeric prefixes */
+
+
+ol {
+	list-style : none;
+	counter-reset : count;
+}
+
+ol > li:before {
+	content : counter(count) ". ";
+	counter-increment : count;
+	display : inline-block;
+	width : 2em;
+	margin-left : -2.5em;
+	margin-right : 0.5em;
+	text-align : right;
+	color : #7728ab;
+}
+
+ol > li > ol > li::before {
+	color : #00fffd;
+}
+
+ol > li > ol > li > ol > li::before {
+	color : #2a7c38;
+}
+
+ol > li > ol > li > ol > li > ol > li::before {
+	color : #8b84ff;
+}
+
+ol > li > ol > li > ol > li > ol > li > ol > li::before {
+	color : #7c451f;
+}
+
+ol > li > ol > li > ol > li > ol > li > ol > li > ol > li::before {
+	color : #ed00ff;
+}
+
+ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li::before {
+	color : #fc7007;
+}
+
+/* end colored ordered list numeric prefixes */
+
+
+
 /* add horizontal rule to headers */
 h1, h2, h3, h4, h5
 {

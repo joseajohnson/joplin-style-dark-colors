@@ -4,6 +4,7 @@ Alternating rows on lists with muted colors, larger, bolder editing styles, KaTe
 Refer to [Colored Rendered Markdown Stylesheet](#colored-rendered-markdown-stylesheet) and [Indented custom global stylesheet](#indented-custom-global-stylesheet) for details regarding each file.
 
 ![screenshot](img/joplin-style-dark-colors_00.png)
+![screenshot](img/joplin-style-dark-colors_09.png)
 
 Before, with final line partially hidden during editing:
 ![screenshot](img/joplin-style-dark-colors_05.png)
@@ -40,7 +41,7 @@ Increases font size and weight of all text for readability, and colorizes bold a
 
 Italicizes blockquotes, and adds color to inline code.
 
-Colorized KaTeX output, unordered lists.
+Colorized KaTeX output, ordered, and unordered lists.
 
 Decreased ordered and unordered list indentation.
 
