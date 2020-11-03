@@ -39,6 +39,44 @@ blockquote {
 	color: #B18EB1 !important;
 }
 
+
+/* KaTeX Styles */
+
 .katex * {
     color: cornflowerblue;
+}
+
+/* binary operator + */
+.mbin {
+	color: #dd0dff;
+}
+
+/* relative = */
+.mrel, .mrel.mtight {
+	color: #b5f735;
+}
+
+/* operators ∑ */
+.mop {
+	color: #835cfd;
+}
+
+/* super/sub script ^_ */
+.mtight {
+	color: #0defe0;
+}
+
+/* variables e n */
+.mathnormal {
+	color: #e08df2;
+}
+
+/* dividing line 1/2 */
+.frac-line {
+	color: #fdc185;
+}
+
+/* factorial closure */
+.mclose {
+	color: #dd3700;
 }
