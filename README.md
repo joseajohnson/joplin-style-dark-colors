@@ -1,5 +1,5 @@
 # joplin-style-dark-colors
-Alternating rows on lists with muted colors, larger, bolder editing styles.
+Alternating rows on lists with muted colors, larger, bolder editing styles, KaTeX hues.
 
 Refer to [Colored Rendered Markdown Stylesheet](#colored-rendered-markdown-stylesheet) and [Indented custom global stylesheet](#indented-custom-global-stylesheet) for details regarding each file.
 
@@ -40,9 +40,11 @@ Increases font size and weight of all text for readability, and colorizes bold a
 
 Italicizes blockquotes, and adds color to inline code.
 
-Colorized KaTeX output.
+Colorized KaTeX output, unordered lists.
 
 ![userstyle-color-pallette](img/joplin-style-dark-colors_01-userstyle.png)
+![userstyle-color-pallette](img/joplin-style-dark-colors_07-userstyle.png)
+![userstyle-color-pallette](img/joplin-style-dark-colors_08-userstyle.png)
 
 ## Indented custom global stylesheet
 `userchrome.css`
@@ -59,7 +61,7 @@ Direct child specificity used to avoid cascading to nested divs, like styling ba
 
 Wider scrollbars for lists and editor.
 
-Colorized bold and italic styles, heavier bold weight, italicized blockqoute (text preceded by `>` on a new line).
+Colorized header (`#`), bold, and italic styles, heavier bold weight, italicized blockqoute (text preceded by `>` on a new line).
 
 Colorized KaTeX numbers, brackets, vars, and tags.
 
