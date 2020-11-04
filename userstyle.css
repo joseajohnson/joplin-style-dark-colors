@@ -90,6 +90,15 @@ ul > li > ul > li > ul > li > ul > li > ul > li > ul > li > ul > li::before {
 	font-size : 13pt;
 }
 
+/* ҉ */
+ul > li > ul > li > ul > li > ul > li > ul > li > ul > li > ul > li > ul > li::before {
+	content : "\0489";
+	color : #0defe0;
+	top : -1px;
+	left : -2px;
+	font-size : 12pt;
+}
+
 /* end colored and additional bullets */
 
 
@@ -135,6 +144,10 @@ ol > li > ol > li > ol > li > ol > li > ol > li > ol > li::before {
 
 ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li::before {
 	color : #fc7007;
+}
+
+ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li::before {
+	color : #0defe0;
 }
 
 /* end colored ordered list numeric prefixes */
