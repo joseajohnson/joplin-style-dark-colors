@@ -99,6 +99,15 @@ ul > li > ul > li > ul > li > ul > li > ul > li > ul > li > ul > li > ul > li::b
 	font-size : 12pt;
 }
 
+/* ۞ */
+ul > li > ul > li > ul > li > ul > li > ul > li > ul > li > ul > li > ul > li > ul > li::before {
+	content : "\06DE";
+	color : #6495ED;
+	top : -3px;
+	left : -12px;
+	font-size : 12pt;
+}
+
 /* end colored and additional bullets */
 
 
@@ -148,6 +157,10 @@ ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li::before {
 
 ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li::before {
 	color : #0defe0;
+}
+
+ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li::before {
+	color : #6495ED;
 }
 
 /* end colored ordered list numeric prefixes */
