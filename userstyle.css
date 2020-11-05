@@ -166,6 +166,13 @@ ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > 
 /* end colored ordered list numeric prefixes */
 
 
+/* inline display of checkboxes within lists */
+li.md-checkbox.joplin-checkbox > div.checkbox-wrapper {
+    display: inline;
+    margin-inline-start: 26px;
+}
+
+
 
 /* add horizontal rule to headers */
 h1, h2, h3, h4, h5

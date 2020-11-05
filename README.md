@@ -45,6 +45,8 @@ Colorized KaTeX output, ordered, and unordered lists.
 
 Decreased ordered and unordered list indentation.
 
+Displays checkboxes and labels inline within unordered lists.
+
 ![userstyle-color-pallette](img/joplin-style-dark-colors_01-userstyle.png)
 ![userstyle-color-pallette](img/joplin-style-dark-colors_07-userstyle.png)
 ![userstyle-color-pallette](img/joplin-style-dark-colors_08-userstyle.png)
