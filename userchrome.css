@@ -79,6 +79,17 @@ div.CodeMirror.CodeMirror-wrap {
 }
 
 
+/*  Alternating Tag List Colors - green */
+
+div.tags > div.list-item-container:nth-child(odd) a{
+  background-color : #092a0c;
+}
+
+div.tags > div.list-item-container:nth-child(even) a{
+	background-color : #0c2d0f;
+}
+
+
 
 /*  Define the background color for empty list areas  */
 .note-list
