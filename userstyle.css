@@ -329,7 +329,7 @@ svg[id^='mermaid-'] g.nodes > g.node > g.label foreignObject{
 /* vector paths, terminators */
 
 
-svg[id^='mermaid-'] g.arrowheadPath {
+svg[id^='mermaid-'] path.arrowheadPath {
 	fill : #dd0dff !important;
 }
 
