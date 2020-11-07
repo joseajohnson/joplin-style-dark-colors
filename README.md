@@ -5,6 +5,7 @@ Refer to [Colored Rendered Markdown Stylesheet](#colored-rendered-markdown-style
 
 ![screenshot](img/joplin-style-dark-colors_00.png)
 ![screenshot](img/joplin-style-dark-colors_09.png)
+![screenshot](img/joplin-style-dark-colors_10.png)
 
 Before, with final line partially hidden during editing:
 ![screenshot](img/joplin-style-dark-colors_05.png)
@@ -41,7 +42,7 @@ Increases font size and weight of all text for readability, and colorizes bold a
 
 Italicizes blockquotes, and adds color to inline code.
 
-Colorized KaTeX output, ordered, and unordered lists.
+Colorized Mermaid flowcharts & sequence diagrams, KaTeX output, ordered, and unordered lists.
 
 Decreased ordered and unordered list indentation.
 

@@ -11,7 +11,7 @@ body {
 ul, ol {
 	line-height : 1.17em;
 	margin-top : 3px;
-    margin-left : 1.2em;
+	margin-left : 1.2em;
 }
 
 li {
@@ -20,7 +20,7 @@ li {
 
 /* list - nested paragraph fix; precedes markdown links within lists (edge case) */
 li p {
-    margin-top: -28px;
+	margin-top : -28px;
 }
 
 /* begin colored and additional bullets */
@@ -168,8 +168,8 @@ ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > 
 
 /* inline display of checkboxes within lists */
 li.md-checkbox.joplin-checkbox > div.checkbox-wrapper {
-    display: inline;
-    margin-inline-start: 26px;
+	display : inline;
+	margin-inline-start : 26px;
 }
 
 
@@ -183,7 +183,7 @@ h1, h2, h3, h4, h5
 /* colorize horizontal rule */
 hr 
 {
-    border-bottom : 2px solid #548281 !important;
+	border-bottom : 2px solid #548281 !important;
 }
 
 /* bold */
@@ -194,7 +194,7 @@ strong {
 
 /* italic */
 em {
-    color : #616dad;
+	color : #616dad;
 }
 
 blockquote {
@@ -212,7 +212,7 @@ blockquote {
 /* KaTeX Styles */
 
 .katex * {
-    color : #6495ed;
+	color : #6495ed;
 }
 
 /* binary operator + */
@@ -248,4 +248,259 @@ blockquote {
 /* factorial closure */
 .mclose {
 	color : #dd3700;
+}
+
+
+
+
+
+
+
+
+/* Mermaid Styles */
+div.mermaid {
+	width : 100%;
+	background-color : #241E25 !important;
+	border-top-left-radius : 15px 15px;
+	border-bottom-right-radius : 5% 5%;
+	border-top-right-radius : 15px 15px;
+	border : dashed;
+	border-color : coral !important;
+}
+
+
+
+/* flowcharts */
+
+/* node text labels */
+
+svg[id^='mermaid-'] g.label {
+	font-family : var(--mermaid-font-family);
+	color : #6495ed !important;
+	font-weight : bold;
+}
+
+svg[id^='mermaid-'] g.label text {
+	fill : #0defe0 !important;
+	font-weight : bold;
+}
+
+
+
+/* nodes */
+
+svg[id^='mermaid-'] g.nodes > g.node > rect,
+svg[id^='mermaid-'] g.nodes > g.node > circle,
+svg[id^='mermaid-'] g.nodes > g.node > ellipse,
+svg[id^='mermaid-'] g.nodes > g.node > polygon,
+svg[id^='mermaid-'] g.nodes > g.node > path {
+	fill : #081a28 !important;
+	stroke : #835cfd !important;
+	stroke-width : 3px;
+}
+
+
+svg[id^='mermaid-'] g.node.clickable {
+	cursor : pointer;
+}
+
+
+
+
+/* center nodes */
+
+svg[id^='mermaid-'] g.nodes > g.node > g.label {
+	text-align : center;
+}
+
+
+svg[id^='mermaid-'] g.nodes > g.node > g.label div{
+	margin-left : calc(-2%);
+}
+
+svg[id^='mermaid-'] g.nodes > g.node > g.label foreignObject{
+	overflow : visible;
+}
+
+
+
+
+
+/* vector paths, terminators */
+
+
+svg[id^='mermaid-'] g.arrowheadPath {
+	fill : #dd0dff !important;
+}
+
+svg[id^='mermaid-'] g.edgePath path.path {
+	stroke : #dd0dff !important;
+}
+
+svg[id^='mermaid-'] g.flowchart-link {
+	stroke : coral !important;
+	fill : none;
+}
+
+
+
+
+
+/* link / edgeLabels, bisecting vectors */
+
+
+
+svg[id^='mermaid-'] g.edgeLabel > g.label > rect {
+	opacity : 0.35 !important;
+	background-color : #0defe0 !important;
+	fill : #0defe0 !important;
+}
+
+svg[id^='mermaid-'] span.edgeLabel {
+	background-color : #220828 !important;
+	text-align : center;
+	color : #e08df2 !important;
+	font-weight : bold;
+	border-left : 6px solid transparent;
+	border-right : 6px solid transparent;
+}
+
+svg[id^='mermaid-'] span.edgeLabel:empty {
+	border : none;
+}
+
+
+
+
+
+
+/* sequenceDiagram */
+
+
+svg[id^='mermaid-'] > g > line.loopLine {
+	stroke-width : 3px !important;
+	stroke : #0defe0 !important;
+	fill : #0defe0 !important;
+}
+
+
+
+/* vertical actor */
+svg[id^='mermaid-'] > g > line.actor-line {
+	stroke : #6495ed !important;
+	stroke-width : 4.5px !important;
+}
+
+/* horizontal message / action - outer sequence number wrapper */
+svg[id^='mermaid-'] > line[class^='messageLine'] {
+	stroke : #dd0dff !important;
+	stroke-width : 2.4px !important;
+}
+
+/* curved path / loop - inner sequence number wrapper */
+svg[id^='mermaid-'] > path[class^='messageLine'] {
+	stroke-width : 2.4 !important;
+	stroke : #dd0dff !important;
+}
+
+
+/* vector arrowhead */
+
+svg[id^='mermaid-'] #arrowhead path {
+	stroke-width : 0.3px !important;
+	stroke : #dd0dff !important;
+	fill : #6495ed !important;
+}
+
+
+
+
+
+/* sequence diagram step numbers */
+
+svg[id^='mermaid-'] > text.sequenceNumber {
+	fill : #0defe0 !important;
+	font-size : 15px !important;
+	font-weight : bold !important;
+}
+
+
+
+
+/* horizontal message / action Text */
+
+svg[id^='mermaid-'] > text.messageText {
+	stroke-width : 0.3px !important;
+	fill : #e08df2 !important;
+	stroke : #6495ed !important;
+}
+
+
+/* loop box label text */
+
+svg[id^='mermaid-'] .loopText,
+svg[id^='mermaid-'] .loopText > tspan {
+	stroke-width : 0.1px !important;
+	fill : #0defe0 !important;
+	stroke : #b5f735 !important;
+}
+
+
+
+
+/* actor container */
+
+svg[id^='mermaid-'] g > rect.actor {
+	fill : #081a28 !important;
+	stroke : #835cfd !important;
+	stroke-width : 3px !important;
+}
+
+
+
+/* actor text */
+
+svg[id^='mermaid-'] g > text.actor > tspan {
+	stroke-width : 0.33px !important;
+	color : #6495ed !important;
+	font-weight : bold;
+	fill : #6495ed !important;
+	stroke : #6495ed !important;
+}
+
+
+/* sub block labels - (par)allel, loop, (opt)ional */
+
+svg[id^='mermaid-'] .labelBox {
+	stroke : #0defe0 !important;
+	fill : #081a28 !important;
+	stroke-width : 0.6px !important;
+}
+
+/* sub block labels text - (par)allel, loop, (opt)ional */
+
+svg[id^='mermaid-'] .labelText,
+svg[id^='mermaid-'] .labelText > tspan {
+	stroke-width : 0.33px !important;
+	color : #6495ed !important;
+	font-weight : bold;
+	fill : #6495ed !important;
+	stroke : #6495ed !important;
+}
+
+/* note box */
+svg[id^='mermaid-'] rect.note {
+	stroke : #fdc185 !important;
+	fill : #092a0c !important;
+	stroke-width : 1.5px !important;
+}
+
+/* note box text */
+
+svg[id^='mermaid-'] text.noteText,
+svg[id^='mermaid-'] text.noteText > tspan {
+	color : #081A28 !important;
+	fill : #0defe0 !important;
+	stroke : #fff5ad !important;
+	stroke-width : 0.05px !important;
 }
