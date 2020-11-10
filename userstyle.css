@@ -504,3 +504,225 @@ svg[id^='mermaid-'] text.noteText > tspan {
 	stroke : #fff5ad !important;
 	stroke-width : 0.05px !important;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+/* stateDiagram */
+
+
+/* state label text */
+
+svg[id^='mermaid-'] span.nodeLabel {
+    font-family : var(--mermaid-font-family);
+    color : #6495ed !important;
+    font-weight : bold;
+}
+
+
+svg[id^='mermaid-'] g.cluster-label > foreignObject{
+  overflow : visible;
+}
+
+
+
+svg[id^='mermaid-']  .statediagram-cluster rect {
+    background-color : #0defe0 !important;
+    fill : #081a28 !important;
+    stroke : #9370DB;
+    stroke-width : 1px;
+    stroke : #9370DB !important;
+    stroke-width : 1px !important;
+}
+
+svg[id^='mermaid-'] .statediagram-cluster rect {
+    fill : #081a28 !important;
+    stroke : #9370DB;
+    stroke-width : 1.5px !important;
+}
+
+
+
+
+svg[id^='mermaid-'] .statediagram-cluster rect.inner {
+    stroke : #9370DB;
+    stroke-width : 1px;
+}
+
+
+svg[id^='mermaid-'] .statediagram-cluster.statediagram-cluster .inner {
+    fill : #270c2d !important;
+}
+
+svg[id^='mermaid-'] .statediagram-cluster.statediagram-cluster-alt .inner {
+    fill : #081a28 !important;
+}
+
+svg[id^='mermaid-'] .statediagram-cluster rect {
+    fill : #ECECFF;
+    stroke : #9370DB;
+    stroke-width : 1px;
+}
+
+
+
+/* vector paths, terminators */
+
+/* vector path */
+svg[id^='mermaid-']  .transition {
+    stroke : #333333;
+    stroke : #dd0dff !important;
+    stroke-width : 1;
+    fill : none;
+}
+
+
+
+svg[id^='mermaid-'] #statediagram-barbEnd path {
+    stroke-width : 0.3px !important;
+    stroke : #dd0dff !important;
+    fill : #6495ed !important;
+}
+
+
+
+svg[id^='mermaid-'] .node circle.state-end {
+    fill : #fc7007 !important;
+}
+
+svg[id^='mermaid-'] .node circle.state-start {
+    fill : #0c2d0f !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Gantt chart styles */
+
+/* chart title header */
+svg[id^='mermaid-'] text.titleText {
+    fill : #6495ed !important;
+    font-weight : bold;
+}
+
+/* left section column title */
+svg[id^='mermaid-'] text.sectionTitle > tspan{
+    fill : #6495ed !important;
+    font-weight : bold;
+    font-size : 15px !important;
+}
+
+/* completed tasks (outside of pill, overridden by task text below) */
+svg[id^='mermaid-']  .doneText0,
+svg[id^='mermaid-']  .doneText1,
+svg[id^='mermaid-']  .doneText2,
+svg[id^='mermaid-']  .doneText3 {
+    fill : #6495ed !important;
+    font-weight : bold;
+    stroke : #dd0dff !important;
+}
+
+/* gantt calendar dates */
+svg[id^='mermaid-'] .grid .tick text {
+    fill : #dd0dff !important;
+}
+
+/* task text */
+svg[id^='mermaid-'] .taskText {
+    font-size : 12px !important;
+}
+
+svg[id^='mermaid-']  .taskText0,
+svg[id^='mermaid-']  .taskText1,
+svg[id^='mermaid-']  .taskText2,
+svg[id^='mermaid-']  .taskText3 {
+    fill : #0c1e2d !important;
+    font-weight : bold;
+    stroke-width : 0.2px !important;
+    stroke : #6495ed !important;
+}
+
+/* period - vertical lines */
+svg[id^='mermaid-'] .grid .tick {
+    stroke : #6495ed !important;
+}
+
+/* horizontal section background */
+svg[id^='mermaid-'] .section {
+    stroke : none;
+    opacity : 0.25 !important;
+}
+
+/* horizontal section 0 background */
+svg[id^='mermaid-'] .section0 {
+    fill : #d1fa8e !important;
+}
+
+/* horizontal section 1,3 background */
+svg[id^='mermaid-'] .section1,
+svg[id^='mermaid-'] .section3 {
+    fill : #78ff7d !important;
+}
+
+/* horizontal section 2 background */
+svg[id^='mermaid-'] .section2 {
+    fill : #ffd378 !important;
+}
+
+svg[id^='mermaid-'] .section1,
+svg[id^='mermaid-'] .section3 {
+}
+
+svg[id^='mermaid-'] > g > text.doneCritText0,
+svg[id^='mermaid-'] > g > text.doneCritText1,
+svg[id^='mermaid-'] > g > text.doneCritText2,
+svg[id^='mermaid-'] > g > text.doneCritText3 {
+    fill : #6495ed !important;
+    font-weight : bold;
+    stroke-width : 0.2px !important;
+    stroke : #6495ed !important;
+}
+
+
+svg[id^='mermaid-'] > g > text.activeCritText0,
+svg[id^='mermaid-'] > g > text.activeCritText1,
+svg[id^='mermaid-'] > g > text.activeCritText2,
+svg[id^='mermaid-'] > g > text.activeCritText3 {
+    fill : #6495ed !important;
+    font-weight : bold;
+    stroke-width : 0.2px !important;
+    stroke : #6495ed !important;
+}
+
+
+
+svg[id^='mermaid-'] > g > text.taskTextOutsideRight {
+    font-weight : bold;
+    stroke-width : 0.2px !important;
+    stroke : #7728ab !important;
+    stroke-width : 0.6px !important;
+    font-size : 16px !important;
+}
+
+svg[id^='mermaid-'] > g > text.taskTextOutsideLeft {
+    font-weight : bold;
+    stroke-width : 0.6px !important;
+    stroke : #dd0dff !important;
+    stroke : #7728ab !important;
+    font-size : 16px !important;
+}
