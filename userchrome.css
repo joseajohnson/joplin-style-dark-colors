@@ -72,10 +72,10 @@ div.CodeMirror.CodeMirror-wrap {
 
 
 
-/* widen scrollbars */
+/* widen default horizontal and vertical scrollbars */
 ::-webkit-scrollbar {
 	width : 18px;
-	height : 7px;
+	height : 18px;
 }
 
 
