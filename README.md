@@ -68,7 +68,11 @@ Direct child specificity used to avoid cascading to nested divs, like styling ba
 
 Wider scrollbars for lists and editor.
 
+<<<<<<< HEAD
 Colorized header (***`#`***), inline-code, bold, and italic styles, heavier bold weight, italicized blockqoute (text preceded by ***`>`*** on a new line).
+=======
+Colorized header (***`#`***), bold, and italic styles, heavier bold weight, italicized blockqoute (text preceded by ***`>`*** on a new line).
+>>>>>>> 64c0a059646962bff3d7f5d47e793d02b227c79c
 
 Colorized KaTeX numbers, brackets, vars, and tags.
 

@@ -45,6 +45,7 @@ div.CodeMirror.CodeMirror-wrap {
 	font-style : italic !important;
 }
 
+<<<<<<< HEAD
 /* inline code */
 .cm-s-material-darker pre.CodeMirror-line > span > span.cm-comment {
     color: #B18EB1 !important;
@@ -63,6 +64,8 @@ div.CodeMirror.CodeMirror-wrap {
 	color: #6495ed !important;
 }
 
+=======
+>>>>>>> 64c0a059646962bff3d7f5d47e793d02b227c79c
 .cm-tab {
     font-size : 9px !important;
 }

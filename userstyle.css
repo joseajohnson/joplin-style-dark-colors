@@ -212,6 +212,7 @@ blockquote {
 	color : #B18EB1 !important;
 }
 
+<<<<<<< HEAD
 /* inline code italics */
 em .inline-code
 {
@@ -222,6 +223,8 @@ em .inline-code
 strong .inline-code{
     color : #6495ed !important;
 }
+=======
+>>>>>>> 64c0a059646962bff3d7f5d47e793d02b227c79c
 
 
 
