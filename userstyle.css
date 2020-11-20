@@ -212,11 +212,13 @@ blockquote {
 	color : #B18EB1 !important;
 }
 
+/* inline code italics */
 em .inline-code
 {
     color : #ed00ff !important;
 }
 
+/* inline code bold */
 strong .inline-code{
     color : #6495ed !important;
 }

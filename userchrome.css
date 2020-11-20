@@ -53,7 +53,7 @@ div.CodeMirror.CodeMirror-wrap {
     border-radius: .25em;
 }
 
-/* inline code ital */
+/* inline code italics */
 .cm-s-material-darker pre.CodeMirror-line > span > span.cm-comment.cm-em {
 	color: #ed00ff !important;
 }
