@@ -45,6 +45,24 @@ div.CodeMirror.CodeMirror-wrap {
 	font-style : italic !important;
 }
 
+/* inline code */
+.cm-s-material-darker pre.CodeMirror-line > span > span.cm-comment {
+    color: #B18EB1 !important;
+    border: 1px solid rgb(70, 70, 70);
+    background-color: rgba(47, 48, 49, 0.15);
+    border-radius: .25em;
+}
+
+/* inline code ital */
+.cm-s-material-darker pre.CodeMirror-line > span > span.cm-comment.cm-em {
+	color: #ed00ff !important;
+}
+
+/* inline code bold */
+.cm-s-material-darker pre.CodeMirror-line > span > span.cm-comment.cm-strong {
+	color: #6495ed !important;
+}
+
 .cm-tab {
     font-size : 9px !important;
 }
