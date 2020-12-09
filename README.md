@@ -49,6 +49,8 @@ Decreased ordered and unordered list indentation.
 
 Displays checkboxes and labels inline within unordered lists.
 
+Reduced icon size.
+
 ![userstyle-color-pallette](img/joplin-style-dark-colors_01-userstyle.png)
 ![userstyle-color-pallette](img/joplin-style-dark-colors_07-userstyle.png)
 ![userstyle-color-pallette](img/joplin-style-dark-colors_08-userstyle.png)
