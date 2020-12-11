@@ -6,19 +6,181 @@
 /* UNCOMMENT THIS RULE TO: */
 /* hide the 'click to add tag' button */
 /* div.resizableLayoutItem.rli-editorColumn > div.resizableLayoutItem.rli-editor > div > div > div:nth-child(4){ */
-/* 	display : none !important; */
+/*   display:       none !important; */
 /* } */
+
+
+
+:root {
+  /*
+  headers
+    .cm-header-1,
+    .cm-header-2,
+    .cm-header-3,
+    .cm-header-4,
+    .cm-header-5,
+    .cm-header-6
+  */
+  /* mauve */
+  --color-headers:      #eebaff;
+  /*
+  italics
+    .cm-em,
+  inline comments
+    span.cm-comment,
+  katex brackets
+    .cm-bracket
+  */
+  /* glossy grape */
+  --color-italics:      #B18EB1;
+  /*
+  bold
+    .cm-strong
+  */
+  /* carolina blue */
+  --color-bold:         #5fa2d0;
+  /*
+  block quote
+    .cm-quote,
+  katex numbers
+    .cm-number
+  */
+  /* steel teal */
+  --color-quote:        #548281;
+
+  /*
+  inline code
+    span.cm-comment
+  */
+  --border-code:        1px solid rgb(70, 70, 70);
+  --backgd-code:        rgba(47, 48, 49, 0.15);
+  --radius-code:        .25em;
+
+  /*
+  inline code italics
+    span.cm-comment.cm-em
+  */
+  /* phlox */
+  --color-code-ital:    #ed00ff;
+  /*
+  inline code bold
+    span.cm-comment.cm-strong
+  */
+  /* cornflower blue */
+  --color-code-bold:    #6495ed;
+  /*
+  katex tags
+    .cm-tag
+  */
+  /* orange */
+  --color-katx-tags:    #ff8c2f;
+
+
+
+  /*
+  editor last line floor
+    div.CodeMirror.CodeMirror-wrap,
+    div.resizableLayoutItem.rli-editor
+  */
+  --size-floor:         10px;
+  /*
+  scrollbar dimensions
+    -webkit-scrollbar
+  */
+  --size-scroll:        18px;
+  /* cm-tab font-size */
+  --size-tab:           9px;
+
+
+
+  /* Note List */
+
+  /*
+  empty list area background color
+    .note-list
+  */
+  --backgd-list:        #000000;
+
+  /* Alternating Note List Colors */
+
+  /* .note-list > .list-item-container:nth-child(odd) a */
+  /*  ODD background rows  */
+  /* rich black */
+  --backgd-list-note1:  #060606;
+  /*  EVEN background rows  */
+  /* eerie black */
+  --backgd-list-note0:  #191919;
+
+
+  /* Notebook List */
+
+  /*  Alternating Notebook List Colors */
+
+  /* .list-item-container:nth-child(odd) a */
+  /*  default/passthrough background for all the ODD rows  */
+  /* eerie black */
+  --backgd-list-book1:  #1D2024;
+  /*  default/passthrough background for all the EVEN rows  */
+  --backgd-list-book0:  #141414;
+
+  /* .list-item-depth-0:nth-child(odd) a */
+  /* 0 - base black / dark grey */
+  /*   0 depth rows ODD */
+  --backgd-list-0book1: #000000;
+  /*   0 depth rows EVEN */
+  --backgd-list-0book0: #121212;
+
+  /* .list-item-depth-1:nth-child(odd) a */
+  /* 1 - dark purple */
+  /*   1 depth rows ODD */
+  --backgd-list-1book1: #220828;
+  /*   1 depth rows EVEN */
+  --backgd-list-1book0: #270c2d;
+
+  /* 2 - dark blue */
+  /*   2 depth rows ODD */
+  --backgd-list-2book1: #081a28;
+  /*   2 depth rows EVEN */
+  --backgd-list-2book0: #0c1e2d;
+
+  /* 3 - dark green */
+  /*   3 depth rows ODD */
+  --backgd-list-3book1: #092a0c;
+  /*   3 depth rows EVEN */
+  --backgd-list-3book0: #0c2d0f;
+
+  /* 4 - dark purple */
+  /*   4 depth rows ODD */
+  --backgd-list-4book1: #211733;
+  /*   4 depth rows EVEN */
+  --backgd-list-4book0: #241A36;
+
+  /* 5 - dark brown */
+  /*   5 depth rows ODD */
+  --backgd-list-5book1: #1e1515;
+  /*   5 depth rows EVEN */
+  --backgd-list-5book0: #211818;
+
+
+  /* Tag List */
+
+  /* Alternating List Items */
+  /* div.tags > div.list-item-container:nth-child(odd) a */
+  /* dark green */
+  --backgd-list-tags1:  #092a0c;
+  --backgd-list-tags0:  #0c2d0f;
+}
 
 
 
 /* begin fix for the cutoff of last line in editor */
 
 div.resizableLayoutItem.rli-editor > div:first-child > div:first-child > div:nth-child(2) > div:first-child > div:nth-child(2) {
-	margin-bottom : 10px;
+  margin-bottom:    var(--size-floor);
 }
 
 div.CodeMirror.CodeMirror-wrap {
-	padding-bottom : 10px;
+  padding-bottom:   var(--size-floor);
 }
 
 /* end fix for the cutoff of last line in editor */
@@ -26,65 +188,65 @@ div.CodeMirror.CodeMirror-wrap {
 
 /* colorize headers */
 .cm-header-1, .cm-header-2, .cm-header-3, .cm-header-4, .cm-header-5, .cm-header-6 {
-    color : #eebaff !important;
+  color:            var(--color-headers) !important;
 }
 
 /* colorize italics */
 .cm-em {
-	color : #B18EB1 !important;
+  color:            var(--color-italics) !important;
 }
 
 /* colorize bold */
 .cm-strong {
-	color : #5fa2d0 !important;
+  color:            var(--color-bold) !important;
 }
 
 /* colorize and italicize blockquote */
 .cm-quote {
-	color : #548281;
-	font-style : italic !important;
+  color:            var(--color-quote);
+  font-style:       italic !important;
 }
 
 /* inline code */
 .cm-s-material-darker pre.CodeMirror-line > span > span.cm-comment {
-    color: #B18EB1 !important;
-    border: 1px solid rgb(70, 70, 70);
-    background-color: rgba(47, 48, 49, 0.15);
-    border-radius: .25em;
+  color:            var(--color-italics) !important;
+  border:           var(--border-code);
+  background-color: var(--backgd-code);
+  border-radius:    var(--radius-code);
 }
 
 /* inline code italics */
 .cm-s-material-darker pre.CodeMirror-line > span > span.cm-comment.cm-em {
-	color: #ed00ff !important;
+  color:            var(--color-code-ital) !important;
 }
 
 /* inline code bold */
 .cm-s-material-darker pre.CodeMirror-line > span > span.cm-comment.cm-strong {
-	color: #6495ed !important;
+  color:            var(--color-code-bold) !important;
 }
 
 .cm-tab {
-    font-size : 9px !important;
+  font-size:        var(--size-tab) !important;
 }
 
 
 /* colorize katex tags */
 .cm-tag {
-	color : #ff8c2f !important;
+  color:            var(--color-katx-tags) !important;
 }
 
 
 /* colorize katex brackets */
 .cm-bracket {
-	font-weight : bold !important;
-	color : #B18EB1 !important;
+  font-weight:      bold !important;
+  color:            var(--color-italics) !important;
 }
 
 
 /* colorize katex numbers */
 .cm-number {
-	font-weight : bold !important;
-	color : #548281 !important;
+  font-weight:      bold !important;
+  color:            var(--color-quote) !important;
 }
 
 
@@ -92,19 +254,19 @@ div.CodeMirror.CodeMirror-wrap {
 
 /* widen default horizontal and vertical scrollbars */
 ::-webkit-scrollbar {
-	width : 18px;
-	height : 18px;
+  width:            var(--size-scroll);
+  height:           var(--size-scroll);
 }
 
 
 /*  Alternating Tag List Colors - green */
 
 div.tags > div.list-item-container:nth-child(odd) a{
-  background-color : #092a0c;
+  background-color: var(--backgd-list-tags1);
 }
 
 div.tags > div.list-item-container:nth-child(even) a{
-	background-color : #0c2d0f;
+  background-color: var(--backgd-list-tags0);
 }
 
 
@@ -112,21 +274,21 @@ div.tags > div.list-item-container:nth-child(even) a{
 /*  Define the background color for empty list areas  */
 .note-list
 { 
-  background-color : #000000 !important;
+  background-color: var(--backgd-list) !important;
 }
 
 /*  Alternating Note List Colors */
 
 /*  Define the list background color for all the ODD background rows  */
 .note-list > .list-item-container:nth-child(odd) a{ 
-  background-color : #060606;
-	background-clip : content-box;
+  background-color: var(--backgd-list-note1);
+  background-clip:  content-box;
 }
 
 /*  Define the list background color for all the EVEN background rows  */
 .note-list > .list-item-container:nth-child(even) a{
-	background-color : #191919;
-	background-clip : content-box;
+  background-color: var(--backgd-list-note0);
+  background-clip:  content-box;
 }
 
 
@@ -135,66 +297,66 @@ div.tags > div.list-item-container:nth-child(even) a{
 
 /*  Define the default/passthrough notebook background color for all the ODD background rows  */
 .list-item-container:nth-child(odd) a{ 
-  background-color : #1D2024;
+  background-color: var(--backgd-list-book1);
 }
 
 /*  Define the default/passthrough notebook background color for all the EVEN background rows  */
 .list-item-container:nth-child(even) a{
-	background-color : #141414;
+  background-color: var(--backgd-list-book0);
 }
 
 
 /* 0 - base black / dark grey */
 .list-item-depth-0:nth-child(odd) a{ 
-  background-color : #000000;
+  background-color: var(--backgd-list-0book1);
 }
 
 .list-item-depth-0:nth-child(even) a{
-	background-color : #121212;
+  background-color: var(--backgd-list-0book0);
 }
 
 /* 1 - dark purple */
 .list-item-depth-1:nth-child(odd) a{ 
-  background-color : #220828;
+  background-color: var(--backgd-list-1book1);
 }
 
 .list-item-depth-1:nth-child(even) a{
-	background-color : #270c2d;
+  background-color: var(--backgd-list-1book0);
 }
 
 /* 2 - blue */
 .list-item-depth-2:nth-child(odd) a{ 
-  background-color : #081a28;
+  background-color: var(--backgd-list-2book1);
 }
 
 .list-item-depth-2:nth-child(even) a{
-	background-color : #0c1e2d;
+  background-color: var(--backgd-list-2book0);
 }
 
 /* 3 - green */
 .list-item-depth-3:nth-child(odd) a{
-  background-color : #092a0c;
+  background-color: var(--backgd-list-3book1);
 }
 
 .list-item-depth-3:nth-child(even) a{
-	background-color : #0c2d0f;
+  background-color: var(--backgd-list-3book0);
 }
 
 
 /* 4 - purple */
 .list-item-depth-4:nth-child(odd) a{ 
-  background-color : #211733;
+  background-color: var(--backgd-list-4book1);
 }
 
 .list-item-depth-4:nth-child(even) a{
-	background-color : #241A36;
+  background-color: var(--backgd-list-4book0);
 }
 
 /* 5 - brown */
 .list-item-depth-5:nth-child(odd) a{ 
-  background-color : #1e1515;
+  background-color: var(--backgd-list-5book1);
 }
 
 .list-item-depth-5:nth-child(even) a{
-	background-color : #211818;
+  background-color: var(--backgd-list-5book0);
 }
