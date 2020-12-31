@@ -5,7 +5,7 @@
 
 /* UNCOMMENT THIS RULE TO: */
 /* hide the 'click to add tag' button */
-/* div.resizableLayoutItem.rli-editorColumn > div.resizableLayoutItem.rli-editor > div > div > div:nth-child(4){ */
+/* div.resizableLayoutItem.rli-root > div.resizableLayoutItem.rli-editor > div:first-child > div:first-child > div:first-child > div:nth-child(4){ */
 /*   display:       none !important; */
 /* } */
 
