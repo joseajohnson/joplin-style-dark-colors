@@ -137,7 +137,7 @@
     ul > li > ul > li > ul > li > ul > li::before,
     ol > li > ol > li > ol > li > ol > li::before
   */
-  --content-list-4:         "\25AA";
+  --content-list-4:         "\25BA";
   --color-list-4:           #8b84ff;
   --top-list-4:             -2px;
   --left-list-4:            -4px;
