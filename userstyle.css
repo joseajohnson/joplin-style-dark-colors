@@ -1,8 +1,8 @@
 /* For styling the rendered Markdown */
 
 :root {
-  /* cm-tab font-size */
-  --size-tab:               9px;
+  /* pre - indented code blocks */
+  --size-tab:               2;
   /* body
     ::-webkit-scrollbar
   */
@@ -640,6 +640,11 @@ em .inline-code
 /* inline code bold */
 strong .inline-code{
   color:            var(--color-code-bold) !important;
+}
+
+/* pre - indented code blocks */
+pre > code {
+  tab-size:         var(--size-tab);
 }
 
 
