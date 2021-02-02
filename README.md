@@ -7,6 +7,7 @@ Refer to [Colored Rendered Markdown Stylesheet](#colored-rendered-markdown-style
 ![screenshot](img/joplin-style-dark-colors_09.png)
 ![screenshot](img/joplin-style-dark-colors_10.png)
 ![screenshot](img/joplin-style-dark-colors_11.png)
+![screenshot](img/joplin-style-dark-colors_12.png)
 
 Before, with final line partially hidden during editing:
 ![screenshot](img/joplin-style-dark-colors_05.png)
@@ -50,6 +51,8 @@ Decreased ordered and unordered list indentation.
 Displays checkboxes and labels inline within unordered lists.
 
 Reduced icon size to normalize line heights.
+
+Decreased tab spacing width for pre-code indented blocks.
 
 ![userstyle-color-pallette](img/joplin-style-dark-colors_01-userstyle.png)
 ![userstyle-color-pallette](img/joplin-style-dark-colors_07-userstyle.png)
